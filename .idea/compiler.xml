@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="TP_ISI_DA_GROUPE_6_2023" />
         <module name="G6" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="G6" options="-parameters" />
+      <module name="TP_ISI_DA_GROUPE_6_2023" options="-parameters" />
       <module name="demo" options="-parameters" />
     </option>
   </component>
