@@ -7,18 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TP_ISI_DA_GROUPE_6_2023" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="19" />
       <module name="G6" target="19" />
+      <module name="TP_ISI_DA_GROUPE_6_2023" target="19" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="G6" options="-parameters" />
-      <module name="TP_ISI_DA_GROUPE_6_2023" options="-parameters" />
+      <module name="TP_ISI_DA_GROUPE_6_2023" options="" />
       <module name="demo" options="-parameters" />
     </option>
   </component>
