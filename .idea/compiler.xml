@@ -8,11 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TP_ISI_DA_GROUPE_6_2023" />
-        <module name="G6" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="19" />
+      <module name="G6" target="19" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
