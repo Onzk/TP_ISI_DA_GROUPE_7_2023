@@ -71,16 +71,19 @@ public class AccountService {
         try{
             map.put("number", number);
             map.put("account", account);
-            if(accountRepository.findByNumber(number) == null){
+            Account old = accountRepository.findByNumber(number);
+            if(old == null){
                 return Response.error("Account not found", map);
             }
             account.setType(account.getType().toUpperCase());
+            account.setId(old.getId());
             if(clientRepository.findById(account.getClientId()).orElse(null) == null){
                 return Response.error("Client not found or not specified", account);
             }
             if(!account.getType().equals("COURANT") && !account.getType().equals("EPARGNE")){
                 return Response.error("Invalid account type. Accepted are : COURANT | EPARGNE", map);
             }
+            account.setNumber(old.getNumber());
             return Response.success("Account modified successfully", accountRepository.save(account));
         }catch(Exception e){
             return Response.error("Account update failed", e.getMessage(), map);

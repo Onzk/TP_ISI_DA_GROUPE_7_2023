@@ -29,7 +29,7 @@ public class TransactionService {
             if(to == null){
                 return Response.error("Account to be credited not found or not specified", transaction);
             }
-            if(from.getAmount() <= transaction.getAmount()){
+            if(from.getAmount() < transaction.getAmount()){
                 return Response.ok("Amount of account to be debited, insufficient", transaction);
             }
             from.setAmount(from.getAmount() - transaction.getAmount());
@@ -50,7 +50,7 @@ public class TransactionService {
             if(to == null){
                 return Response.error("Account to be debited not found or not specified", transaction);
             }
-            if(to.getAmount() <= transaction.getAmount()){
+            if(to.getAmount() < transaction.getAmount()){
                 return Response.error("Amount of account to be debited, insufficient", transaction);
             }
             to.setAmount(to.getAmount() - transaction.getAmount());
