@@ -17,6 +17,8 @@ public class Account {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+    @NotNull
     private Integer clientId;
     @Column(unique = true)
     private String number;
