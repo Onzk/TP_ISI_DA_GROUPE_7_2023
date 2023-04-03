@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Tools {
     public static String randomString(){
-        String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
         StringBuilder sb = new StringBuilder();
         Random random = new Random();
         int length = 5;
