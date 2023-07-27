@@ -17,7 +17,6 @@ public class ClientController {
             return clientService.saveClient(client);
         }catch (Exception e){
             return  Response.serverError("An internal error occurred", e.getMessage());
-
         }
     }
 

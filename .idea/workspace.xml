@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a728f6fe-8816-43e5-9186-c4c9c2b14221" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ucao/isi/G6/Services/TransactionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucao/isi/G6/Services/TransactionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ucao/isi/G6/Controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucao/isi/G6/Controllers/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ucao/isi/G6/Repositories/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucao/isi/G6/Repositories/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ucao/isi/G6/Services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ucao/isi/G6/Services/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ucao/isi/G6/Controllers/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucao/isi/G6/Controllers/ClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ucao/isi/G6/Services/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucao/isi/G6/Services/ClientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ucao/isi/G6/Tools/Tools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ucao/isi/G6/Tools/Tools.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Projects/School/s6/Intégration des systèmes d'information/TP_ISI_DA_GROUPE_6_2023&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ucao.isi.G6.Main" />
@@ -73,6 +80,17 @@
       <updated>1680472087157</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

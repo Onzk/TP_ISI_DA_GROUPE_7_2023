@@ -13,7 +13,6 @@ import java.util.Map;
 import java.util.Objects;
 
 @Service
-
 public class ClientService {
 
     @Autowired
@@ -27,7 +26,6 @@ public class ClientService {
             client.setGender(client.getGender().toUpperCase());
             if(!client.getGender().equals("F") && !client.getGender().equals("M")){
                 return Response.error("Invalid client gender.Accepted are : M| F", client);
-
             }
             return Response.success("Client created successfully", clientRepository.save(client));
         }catch (Exception e){
@@ -65,13 +63,11 @@ public class ClientService {
             Object client = clientRepository.findById(id).orElse(null);
             return client == null
                     ? Response.error("Client not found", null)
-
                     : Response.ok("Client found", client);
         }catch (Exception e){
             return Response.error("Client retrieve failed", e.getMessage(), id);
         }
     }
-
 
     public Response updateClient(Client client, Integer id){
         Map<Object, Object> map = new HashMap<>();
@@ -81,7 +77,6 @@ public class ClientService {
             if(clientRepository.findById(id).orElse(null) == null){
                 return Response.error("Client not found", map);
             }
-
             client.setId(id);
             client.setGender(client.getGender().toUpperCase());
             if(!client.getGender().equals("F") && !client.getGender().equals("M")){
